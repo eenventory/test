@@ -47,10 +47,16 @@
             text-decoration: none;
         }
 
+        /* Circular Favicon Styles */
+        link[rel="icon"] {
+            border-radius: 50%;
+        }
+
         .logo {
             width: 150px;
             height: 150px;
             margin: 20px auto;
+            object-fit: contain; /* Maintain original aspect ratio */
         }
     </style>
 </head>
