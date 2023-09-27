@@ -22,11 +22,12 @@
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
             max-width: 700px; /* Increased container width */
-            margin: 100px auto;
+            margin: 50px auto; /* Reduced margin between logo and "Coming Soon" */
         }
 
         h1 {
-            color: #806C51; /* Text color for "Coming Soon" */
+            color: black; /* Text color for "Coming Soon" */
+            margin-bottom: 10px; /* Reduced space below "Coming Soon" */
         }
 
         p {
@@ -55,7 +56,7 @@
         .logo {
             width: 150px;
             height: 150px;
-            margin: 20px auto;
+            margin: 0 auto 20px; /* Removed space below logo */
             object-fit: contain; /* Maintain original aspect ratio */
         }
     </style>
@@ -64,7 +65,7 @@
     <div class="container">
         <!-- Website logo -->
         <img class="logo" src="logo2.png" alt="Eenventory Logo">
-        <h1 style="color: #806C51;">Coming Soon...</h1> <!-- Text color for "Coming Soon" -->
+        <h1>Coming Soon...</h1> <!-- Text color for "Coming Soon" -->
         <p>Eenventory. Helping businesses go online, sell products, and manage inventory.</p> <!-- Text color for this text -->
         <div class="contact-info">
             <p>Email: <a href="mailto:contactus@eenventory.com" style="color: #3498db;">contactus@eenventory.com</a></p> <!-- Email in blue color -->
