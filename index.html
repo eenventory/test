@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Coming Soon - Eenventory</title>
+    <title>Eenventory</title>
     <!-- Favicon for browser tab -->
     <link rel="icon" href="logo.png" type="image/png">
     <!-- Styles for the website -->
@@ -53,18 +53,28 @@
             border-radius: 50%;
         }
 
+        /* Styles for the logo outside the container */
+        .logo-container {
+            text-align: center;
+        }
+
         .logo {
-            width: 150px;
-            height: 150px;
-            margin: 0 auto 20px; /* Removed space below logo */
+            width: 250px; /* Increase the logo size as needed */
+            height: 250px;
             object-fit: contain; /* Maintain original aspect ratio */
+            border-radius: 50%; /* Display the logo as a circle */
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <!-- Logo outside the container -->
+    <div class="logo-container">
         <!-- Website logo -->
         <img class="logo" src="logo2.png" alt="Eenventory Logo">
+    </div>
+
+    <!-- Content container -->
+    <div class="container">
         <h1>Coming Soon...</h1> <!-- Text color for "Coming Soon" -->
         <p>Eenventory. Helping businesses go online, sell products, and manage inventory.</p> <!-- Text color for this text -->
         <div class="contact-info">
